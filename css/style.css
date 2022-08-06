@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+* {
+  margin: o;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  width: 100%;
+  background-color: #f8f8f8;
+  padding: 0 1.5rem;
+}
+img {
+  width: 100%;
+  border-radius: 1.3rem;
+}
+h1 {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 900;
+  font-size: 2.8rem;
+  letter-spacing: 0.08rem;
+  color: #262626;
+}
+p {
+  font-family: "Merriweather", serif;
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: #6e6e6e;
+  text-align: justify;
+  letter-spacing: 0.03rem;
+}
+cite {
+  font-family: "Merriweather", serif;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.post {
+  width: 100%;
+  max-width: 80rem;
+  padding: 15px;
+}
+.post01 {
+  margin: 1% auto 0 auto;
+  width: 100%;
+  max-width: 80rem;
+  background-color: #ffffff;
+  box-shadow: 0rem 0rem 8rem rgba(0, 0, 0, 0.2);
+  border-radius: 1.3rem 1.3rem 0rem 0rem;
+  border-top: solid 0.01rem #b4b4b4;
+  border-left: solid 0.01rem #b4b4b4;
+  border-right: solid 0.01rem #b4b4b4;
+  color: black;
+}
+.post02 {
+  margin: 0 auto 1% auto;
+  width: 100%;
+  max-width: 80rem;
+  background-color: #f3f3f3;
+  border-radius: 0rem 0rem 1.3rem 1.3rem;
+  border-bottom: solid 0.01rem #b4b4b4;
+  border-left: solid 0.01rem #b4b4b4;
+  border-right: solid 0.01rem #b4b4b4;
+  color: black;
+}
+.divImg {
+  width: 100%;
+}
+.divConte {
+  width: 100%;
+}
+address {
+  font-family: "Merriweather", serif;
+  text-align: right;
+  font-weight: 300;
+  font-size: 1rem;
+}
+.divLinks {
+  background-color: #f2f2f2;
+}
+nav {
+  padding: 1rem;
+  margin: auto;
+  text-align: center;
+  text-decoration: none;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(11rem, 1fr));
+  gap: 4px;
+}
+nav a {
+  margin: 0.7rem;
+  background-color: #fbfbfb;
+  padding: 1rem;
+  font-family: "Merriweather", serif;
+  color: #0067c0;
+  border-radius: 0.4rem;
+  font-weight: 300;
+  font-size: 1rem;
+  text-decoration: none;
+}
+nav a:hover {
+  background-color: #0067c0;
+  color: #fbfbfb;
+  font-weight: 700;
+  font-size: 1rem;
+}

@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="icon" href="../../img/ico.png" />
+    <link rel="apple-touch-ico" href="../../img/ico.png" />
+    <link rel="stylesheet" href="../../css/inicial.css" />
+    <title>Codigo | Videos</title>
+  </head>
+  <body>
+    <main>
+      <section class="stcTitulo">
+        <h2 class="hTitulo">Codigo: Videos</h2>
+        <a class="aLink" href="../semana01.html">regresar</a>
+      </section>
+      <hr />
+      <h2 class="hSubtitulo">🔻Elementos anidados</h2>
+      <section class="stcConte">
+      </br>
+      <pre>
+        <code>
+          <span class="yellow">&lt;html&gt;</span>
+              <span class="yellow">&lt;body&gt;</span>
+                    <span class="yellow">&lt;h1&gt;</span><span class="white">...</span><span class="yellow">&lt;/h1&gt;</span>
+                    <span class="yellow">&lt;p&gt;</span><span class="white">...</span><span class="yellow">&lt;/p&gt;</span>
+              <span class="yellow">&lt;/body&gt;</span>
+          <span class="yellow">&lt;/html&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Listas</h2>
+      <section class="stcConte">
+        <ol start="1" type="I">
+          <li>Aerolinea del Peru</li>
+          <li>Aerolinea de Mexico</li>
+          <li>Canada Airlines</li>
+        </ol>
+        <ul>
+          <li>Aerolinea del Peru</li>
+          <li>Aerolinea de Mexico</li>
+          <li>Canada Airlines</li>
+        </ul>
+      </br>
+      <pre>
+        <code>
+          <span class="yellow">&lt;ol</span> <span class="blue">start</span><span class="green">="</span><span class="purple">1</span><span class="green">"</span> <span class="blue">type</span><span class="green">="</span> <span class="purple">I</span><span class="green">"</span><span class="yellow">&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Aerolinea del Peru</span><span class="yellow">&lt;/li&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Aerolinea del Mexico</span><span class="yellow">&lt;/li&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Canada Airlines</span><span class="yellow">&lt;/li&gt;</span>
+          <span class="yellow">&lt;/ol&gt;</span>
+          <span class="yellow">&lt;ul&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Aerolinea del Peru</span><span class="yellow">&lt;/li&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Aerolinea del Mexico</span><span class="yellow">&lt;/li&gt;</span>
+              <span class="yellow">&lt;li&gt;</span><span class="white">Canada Airlines</span><span class="yellow">&lt;/li&gt;</span>
+          <span class="yellow">&lt;/ul&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Tablas</h2>
+      <section class="stcConte">
+        <!-- <tr></tr> table wow (fila)
+        <th></th> table header (titulo)
+        <td></td> table data (Informacion)-->
+        <table style="border: solid">
+          <tr>
+            <th style="border: solid">Vuelo</th>
+            <th style="border: solid">Cantidad</th>
+            <th style="border: solid">Precios</th>
+          </tr>
+          <tr>
+            <td style="border: solid">Canada</td>
+            <td style="border: solid" rowspan="2">1</td>
+            <td style="border: solid">1000</td>
+          </tr>
+          <tr>
+            <td style="border: solid">España</td>
+            <td style="border: solid">2100</td>
+          </tr>
+          <tr>
+            <td style="border: solid">Perú</td>
+            <td style="border: solid">2</td>
+            <td style="border: solid">2500</td>
+          </tr>
+          <tr>
+            <td style="border: solid" colspan="2">Total</td>
+            <td style="border: solid">5600</td>
+          </tr>          
+        </table>
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  &lt;tr&gt;&lt;/tr&gt; table wow (fila)</span>
+          <span class="red">&lt;th&gt;&lt;/th&gt; table header (titulo)</span>
+          <span class="red">&lt;td&gt;&lt;/td&gt; table data (Informacion)  --&gt;</span>
+          <span class="yellow">&lt;table</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span>
+              <span class="yellow">&lt;tr&gt;</span>
+                <span class="yellow">&lt;th</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Vuelo</span> <span class="yellow">&lt;/th&gt;</span>
+                <span class="yellow">&lt;th</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Cantidad</span> <span class="yellow">&lt;/th&gt;</span>
+                <span class="yellow">&lt;th</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Precios</span> <span class="yellow">&lt;/th&gt;</span>
+              <span class="yellow">&lt;/tr&gt;</span>
+              <span class="yellow">&lt;tr&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Canadad</span> <span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span> <span class="blue">rowspan</span><span class="green">="</span><span class="purple">2</span><span class="green">"</span> <span class="yellow">&gt;</span> <span class="white">1</span><span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">1000</span><span class="yellow">&lt;/td&gt;</span>
+              <span class="yellow">&lt;/tr&gt;</span>
+              <span class="yellow">&lt;tr&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">España</span> <span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">2100</span><span class="yellow">&lt;/td&gt;</span>
+              <span class="yellow">&lt;/tr&gt;</span>
+              <span class="yellow">&lt;tr&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Perú</span> <span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span> <span class="yellow">&gt;</span> <span class="white">2</span><span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">2500</span><span class="yellow">&lt;/td&gt;</span>
+              <span class="yellow">&lt;/tr&gt;</span>
+              <span class="yellow">&lt;tr&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span><span class="yellow">&gt;</span> <span class="white">Total</span> <span class="yellow">&lt;/td&gt;</span>
+                <span class="yellow">&lt;td</span> <span class="blue">style</span><span class="green">="</span><span class="purple">border: solid</span><span class="green">"</span> <span class="blue">colspan</span><span class="green">="</span><span class="purple">2</span><span class="green">"</span> <span class="yellow">&gt;</span> <span class="white">5600</span><span class="yellow">&lt;/td&gt;</span>
+              <span class="yellow">&lt;/tr&gt;</span>              
+          <span class="yellow">&lt;/table&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Convenciones</h2>
+      <section class="stcConte">
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!-- </span>
+          <span class="red">DOCTYPE</span>
+          <span class="red">doctype</span>
+          <span class="red">DocType</span>
+          <span class="red">"..."</span>
+          <span class="red">--&gt;</span>
+        </code>
+      </pre>
+      </section>
+      
+    </main>
+   
+    
+  </body>
+</html>

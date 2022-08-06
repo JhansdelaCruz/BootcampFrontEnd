@@ -1,0 +1,306 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta http-equiv="Content-Type" content="text/html" charset="UTF-8" />
+    <link rel="icon" href="../../img/ico.png" />
+    <link rel="apple-touch-ico" href="../../img/ico.png" />
+    <link rel="stylesheet" href="../../css/inicial.css" />
+    <title>Codigo | Videos</title>
+  </head>
+  <body>
+    <main>
+      <section class="stcTitulo">
+        <h2 class="hTitulo">Codigo: Videos</h2>
+        <a class="aLink" href="../semana01.html">regresar</a>
+      </section>
+      <hr />
+      <h2 class="hSubtitulo">🔻Input y form</h2>
+      <section class="stcConte">
+        Nombre <br>
+        <input type="text" name="nombre"><br>
+        Apellido <br>
+        <input type="text" name="Apellido">
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Checkbox y Radio</h2>
+      <section class="stcConte">
+        Por favor seleccione los dispositivos que llevan en el viajebr <br>
+        <input type="checkbox" name="dispositivo01" value="laptop">
+        Llevo un laptop <br>
+        <input type="checkbox" name="dispositivo02" value="tablet">
+        Llevo una Tablet
+        <br>
+        Selecciona tu genero <br>
+        <input type="radio" name="genero" value="hombre" checked>Hombre<input type="radio" name="genero" value="mujer">Mujer
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Agrupar y nombrar</h2>
+      <section class="stcConte">
+        <form>
+          <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre"><br>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="Apellido">
+          </br>
+          Por favor seleccione los dispositivos que llevan en el viaje <br>
+          <input id="laptop" type="checkbox" name="dispositivo01" value="laptop">
+          <label for="laptop">Llevo un laptop</label>
+          <input id="tablet" type="checkbox" name="dispositivo02" value="tablet">
+          <label for="tablet">Llevo una Tablet</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>
+            Selecciona tu genero
+          </legend>
+          <label><input id="hombre" type="radio" name="genero" value="hombre" checked>Hombre</label>
+          <label><input id="mujer" type="radio" name="genero" value="mujer">Mujer</label>
+        </fieldset> 
+        </form>      
+        
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Submit</h2>
+      <section class="stcConte">
+        <form>
+          <fieldset>
+          <legend>Informacion Personal</legend>
+          <label for="nombre">Nombre:</label>
+          <input type="text" name="nombre"><br>
+          <label for="apellido">Apellido:</label>
+          <input type="text" name="Apellido">
+          </br>
+          Por favor seleccione los dispositivos que llevan en el viaje <br>
+          <input id="laptop2" type="checkbox" name="dispositivo01" value="laptop">
+          <label for="laptop2">Llevo un laptop</label>
+          <input id="tablet2" type="checkbox" name="dispositivo02" value="tablet">
+          <label for="tablet2">Llevo una Tablet</label>
+        </fieldset>
+        <br>
+        <fieldset>
+          <legend>
+            Selecciona tu genero
+          </legend>
+          <label><input id="hombre" type="radio" name="genero" value="hombre">Hombre</label>
+          <label><input id="mujer" type="radio" name="genero" value="mujer">Mujer</label>
+        </fieldset>
+        <input type="submit" action="/action_page.php">
+        </form>
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Otros tipos de input</h2>
+      <section class="stcConte">
+        <form>
+          <fieldset>
+            <legend>Crea tu usuario</legend>
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" name="usuario"><br>
+            <label for="contrasena">contraseña:</label>
+            <input type="password" name="contrasena">
+            <input type="button" onclick="alert('Tu password es segura')" value="Verificar">
+            <br>
+            <label for="color">Selecciona tu color favorito:</label>
+            <input name="color" type="color">
+            </br>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input name="fecha" type="date">
+            </br>
+            <label for="email">Escribe tu E-mail:</label>
+            <input name="email" type="email">
+            </br>
+            <label for="archivo">Sube tu pasaporte:</label>
+            <input name="archivo" type="file">
+            </br>
+            <label for="numero">Cuantas personas viajan con tigo:</label>
+            <input name="numero" type="number">
+            </br>
+            <label for="rango">Cual es tu calificacion de nuestra aerolinea:</label>
+            <input name="rango" type="range">
+            </br>
+            
+            <input type="reset">
+          </fieldset>
+        </form>
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Otros elementos de form</h2>
+      <section class="stcConte">
+        <form>
+          <fieldset>
+            <legend>Crea tu usuario</legend>
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" name="usuario"><br>
+            <label for="contrasena">contraseña:</label>
+            <input type="password" name="contrasena">
+            <input type="button" onclick="alert('Tu password es segura')" value="Verificar">
+            <button type="button" onclick="alert('Tu password es segura')" value="Verificar" >Verificar</button>
+            <br>
+            <label for="color">Selecciona tu color favorito:</label>
+            <input name="color" type="color">
+            </br>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input name="fecha" type="date">
+            </br>
+            <label for="email">Escribe tu E-mail:</label>
+            <input name="email" type="email">
+            </br>
+            <label for="archivo">Sube tu pasaporte:</label>
+            <input name="archivo" type="file">
+            </br>
+            <label for="numero">Cuantas personas viajan con tigo:</label>
+            <input name="numero" type="number">
+            </br>
+            Por favor elige tu aerolinea preferida
+            <select>
+              <option value="mexico">Aerolinea de Mexico</option>
+              <option value="peru" selected>Aerolinea de Perú</option>
+              <option value="canada">Canada airlines</option>
+            </select>
+            <input list="aerolineas">
+            <datalist id="aerolineas">
+              <option value="mexico">Aerolinea de Mexico</option>
+              <option value="peru" selected>Aerolinea de Perú</option>
+              <option value="canada">Canada airlines</option>
+            </datalist>
+            <br>
+            Por favor agrega tu opinion
+            <textarea name="opinion" cols="20" rows="5"></textarea>
+            <br>
+            <label for="rango">Cual es tu calificacion de nuestra aerolinea:</label>
+            <input name="rango" type="range">
+            </br>
+            
+            <input type="reset">
+          </fieldset>
+        </form>
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+      <h2 class="hSubtitulo">🔻Atributos extras de input</h2>
+      <section class="stcConte">
+        <form>
+          <fieldset>
+            <legend>Crea tu usuario</legend>
+            <label for="usuario">Nombre de usuario:</label>
+            <input type="text" name="usuario" value="Jhans" readonly required><br>
+            <label for="contrasena">contraseña:</label>
+            <input type="password" name="contrasena"  disabled required>
+            <input type="button" onclick="alert('Tu password es segura')" value="Verificar">
+            <button type="button" onclick="alert('Tu password es segura')" value="Verificar" >Verificar</button>
+            <br>
+            <label for="color">Selecciona tu color favorito:</label>
+            <input name="color" type="color">
+            </br>
+            <label for="fecha">Fecha de nacimiento:</label>
+            <input name="fecha" type="date">
+            </br>
+            <label for="email">Escribe tu E-mail:</label>
+            <input name="email" type="email">
+            </br>
+            <label for="archivo">Sube tu pasaporte:</label>
+            <input name="archivo" type="file">
+            </br>
+            <label for="numero">Cuantas personas viajan con tigo:</label>
+            <input name="numero" type="number">
+            </br>
+            Por favor elige tu aerolinea preferida
+            <select>
+              <option value="mexico">Aerolinea de Mexico</option>
+              <option value="peru" selected>Aerolinea de Perú</option>
+              <option value="canada">Canada airlines</option>
+            </select>
+            <input list="aerolineas">
+            <datalist id="aerolineas">
+              <option value="mexico">Aerolinea de Mexico</option>
+              <option value="peru" selected>Aerolinea de Perú</option>
+              <option value="canada">Canada airlines</option>
+            </datalist>
+            <br>
+            Por favor agrega tu opinion
+            <textarea autofocus placeholder="Escribe un texto" name="opinion" cols="20" rows="5"></textarea>
+            <br>
+            <label for="rango">Cual es tu calificacion de nuestra aerolinea:</label>
+            <input name="rango" type="range">
+            </br>
+            
+            <input type="reset">
+          </fieldset>
+        </form>
+      </br>
+      <pre>
+        <code>
+          <span class="red">&lt;!--  
+            ¡Se está volviendo lento mi aprendisaje! 😔
+            Te parece si inspeccionas la pagina!
+
+            ...aun mejor, presiona F12 o ctrl + shift + i 🤓
+            --&gt;</span>
+        </code>
+      </pre>
+      </section>
+    </main>    
+  </body>
+</html>
